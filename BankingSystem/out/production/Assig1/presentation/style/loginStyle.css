@@ -1,0 +1,29 @@
+.root{
+   -fx-background-image: url("../media/background.jpg");
+   -fx-background-size: cover;
+}
+
+AnchorPane{
+    -fx-background-color: rgba(173, 173, 173, 0.1);
+    -fx-background-radius: 10px;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(255, 255, 255, 1);
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: rgba(66, 151, 155, 0.1);
+    -fx-border-color: none;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: rgba(220, 56, 56, 1);
+    -fx-border-color: none;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
